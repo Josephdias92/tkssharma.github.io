@@ -636,6 +636,9 @@ p {
 body {
     background: #333;
     color: #fff;
+        background-image: url("../media/banner.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
     font-family: 'Roboto Light'
 }
 
@@ -652,11 +655,12 @@ video {
     z-index: -100;
     display: none;
     -webkit-transition: all 0.2s ease-out;
-    transition: all 0.2s ease-out
+    transition: all 0.2s ease-out;
+    
 }
 
 .home video {
-    opacity: 0.4;
+    opacity: 1.0;
     /* height: 100%; */
     /* width: 100%; */
 }

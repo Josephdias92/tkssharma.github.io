@@ -1,13 +1,13 @@
 @media only screen and (min-width: 500px)
 {
-.wrap {
-    overflow: visible;
-}
-.footer, .wrap:after {
-    z-index: 1000;
-    position: relative;
-    background: #222;
-}
+    .wrap {
+        overflow: visible;
+    }
+    .footer, .wrap:after {
+        z-index: 1000;
+        position: relative;
+        background: #222;
+    }
 }
 @media only screen and (min-width: 800px)
 .wrap {
@@ -19,14 +19,14 @@
 }
 @media only screen and (min-width: 340px)
 {
-.main-nav a {
-    padding: 15px 20px 18px;
-}
-.footer, .wrap:after {
-    z-index: 1000;
-    position: relative;
-    background: #222;
-}
+    .main-nav a {
+        padding: 15px 20px 18px;
+    }
+    .footer, .wrap:after {
+        z-index: 1000;
+        position: relative;
+        background: #222;
+    }
 }
 @media only screen and (min-width: 800px)
 .home .page-title {
@@ -36,15 +36,15 @@
 }
 @media only screen and (min-width: 800px)
 {
-.footer, .wrap:after {
-    height: 170px;
-}
-.footer, .wrap:after {
-    z-index: 1000;
-    background: transparent;
-    position: relative;
-    /* background: #222; */
-}
+    .footer, .wrap:after {
+        height: 170px;
+    }
+    .footer, .wrap:after {
+        z-index: 1000;
+        background: transparent;
+        position: relative;
+        /* background: #222; */
+    }
 }
 @media only screen and (min-width: 800px)
 .footer, .wrap:after {
@@ -72,3 +72,4 @@
 ul li {
     margin: 0;
 }
+
