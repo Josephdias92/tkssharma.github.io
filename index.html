@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html ng-app="me">
 <head>
 <meta name="fragment" content="!">
 
@@ -21,58 +21,24 @@
       <link rel="stylesheet" href="css/media.css">
   <link rel="stylesheet" href="font-awesome/css/font-awesome.css">
 
+
     <link href='http://fonts.googleapis.com/css?family=Lato:300,400,700,900,400italic,700italic' rel='stylesheet' type='text/css'>
 </head>
-<body class="home" id="content">
+
+<body  class="{{containerClass}}" id="content" >
 
   <div class="wrap">
 
-        <header class="header">
-            <div class="header-wrap">
-                  <a class="homelink" href="index.html"><span class="logo">TS</span>
-                    <h1 class="name">Tarun Sharma</h1>
-                </a>
-                 <nav class="main-nav">
-                    <ul>
-                     <li><a class="about" href="about.html">About</a></li>
-                        <li><a class="projects" href="projects.html">Projects</a></li>
-                        <li><a class="contact" href="contact.html">Contact</a></li>
-                    </ul>
-                </nav>
-            </div>
-        </header>
-        <video id="main-vid" preload="" autoplay="" loop="" >
-        <source src="media/m1.mp4" type="video/mp4">
-        <source src="media/m1.webm" type="video/webm">
-    </video>
-    <main id="appbody" class="main-content">
-        <h2 class="page-title">I am Tarun Sharma</h2>
-        <p>I make awesome designs and develop applications.</p>
-    </main>
+ <header ng-include="'partials/header.html'"></header>
+    <div ui-view></div>
     </div>
+<footer ng-include="'partials/footer.html'"></footer>
+   
 
-    <footer class="footer">
+   </body>
+</div>
+    <script src="http://code.angularjs.org/1.2.13/angular.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.2.8/angular-ui-router.min.js"></script>
+   <script src="app.js" type="text/javascript" charset="utf-8" ></script>
 
-        <h3>Where to find me</h3>
-        <ul class="social">
-            <li>
-                <a target="_blank" href="https://twitter.com/tkssharma"><i class="fa fa-twitter"><span class="text">Twitter</span></i></a>
-            </li>
-            <li>
-                <a target="_blank" href="https://www.youtube.com/channel/UCS1NeZF0Or2E1RAV9hQJz3g"><i class="fa fa-youtube"><span class="text">Youtube</span></i></a>
-            </li>
-            <li>
-                <a target="_blank" href="https://github.com/tkssharma"><i class="fa fa-github"><span class="text">Github</span></i></a>
-            </li>
-            <li>
-                <a target="_blank" href="https://bitbucket.org/tkssharma"><i class="fa fa-bitbucket"><span class="text">Bitbucket</span></i></a>
-            </li>
-            <li>
-                <a target="_blank" href="https://www.linkedin.com/in/tarun-sharma-03790254"><i class="fa fa-linkedin"><span class="text">LinkedIn</span></i></a>
-            </li>
-            <li>
-                <a target="_blank" href="https://www.facebook.com/tarun.sharma.msp.emgg"><i class="fa fa-facebook"><span class="text">Facebook</span></i></a>
-            </li>
-        </ul>
-    </footer></body>
 </html>
