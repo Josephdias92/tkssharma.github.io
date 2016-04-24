@@ -762,7 +762,9 @@ video {
 .about .logo:before {
     left: 0px
 }
-
+.training .logo:before {
+    left: 0px
+}
 .projects .logo:before {
     left: -52px
 }
@@ -912,11 +914,42 @@ body.about nav a.about {
     padding-bottom: 14px;
     background: rgba(0,0,0,0.1)
 }
+body.training nav a.training {
+    padding-bottom: 14px;
+    background: rgba(0,0,0,0.1)
+}
 
 a.about {
     border-color: #16a085
 }
 
+a.training {
+    border-color: #43729C
+}
+
+body.training .main-content a {
+    color: #43729C
+}
+
+body.training .main-content a:hover {
+    text-decoration: underline
+}
+
+body.training ::-moz-selection {
+    background: #43729C
+}
+
+body.training ::selection {
+    background: #43729C
+}
+
+body.training .btn:hover {
+    background: #43729C
+}
+
+
+
+/*  */
 body.about .main-content a {
     color: #16a085
 }

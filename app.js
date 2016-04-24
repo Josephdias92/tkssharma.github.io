@@ -23,6 +23,11 @@ app.config(function($stateProvider, $urlRouterProvider) {
             templateUrl: 'partials/about.html',
             containerClass: 'about'
         })
+           .state('training', {
+            url: '/training',
+            templateUrl: 'partials/training.html',
+            containerClass: 'training'
+        })
          .state('contact', {
             url: '/contact',
             templateUrl: 'partials/contact.html',
